@@ -18,5 +18,16 @@ function changeBackwards(currentId,pastId){
 }
 
 function trackScore(){
-    
+    let score = 0;
+    let result = document.getElementById("finalNumber") ;
+    let first = document.getElementById("opt-1-IT")
+    if (first.click == true){
+        score++
+    }
+    result.textContent = "{score}";
+    result.appendChild(result);
+
 }
+
+h2.textContent = 'Add h2 element to the div';
+div.appendChild(h2);
